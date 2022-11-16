@@ -10,10 +10,4 @@ public class Main {
         System.out.println("Hello user");
     }
 
-    public static void met(int a){
-        Function<Integer, Integer> b=(n)->{
-            int i = a+1;
-            return n+i;
-        };
-    }
 }
